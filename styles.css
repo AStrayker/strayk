@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #2d3e50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro, .details, .donate {
+  margin-bottom: 20px;
+}
+
+.product-gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.product-gallery img {
+  width: 30%;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #2d3e50;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
